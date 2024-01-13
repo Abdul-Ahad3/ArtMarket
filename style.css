@@ -1,3 +1,24 @@
 body{
     background-color: rgb(229, 123, 229);
 }
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: rgb(103, 16, 224);
+    font-size:larger;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    min-height: 50px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.navbar a:hover{background-color: aqua;}
+
+.navbar li{float: left;}
