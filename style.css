@@ -49,11 +49,13 @@ img{
     margin-top: 0px;
     margin-left: 15px;
     margin-right: 15px;
+    margin-bottom: 5px;
 }
 
 .button{
-    height: 60px;
-    width: 70px;
+    height: 30px;
+    width: 60px;
+    margin-top: 0px;
     margin-left: 150px;
     font-size: larger;
     background-color: rgb(24, 225, 24);
