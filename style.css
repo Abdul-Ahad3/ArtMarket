@@ -24,8 +24,13 @@ body{
 .navbar li{float: left;}
 
 .item{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     height: 460px;
-    width: 300px;
+    width: 350px;
     background-color: rgb(236, 229, 237);
     justify-content: center;
     align-items: center;
