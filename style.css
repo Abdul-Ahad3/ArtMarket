@@ -1,4 +1,5 @@
 body{
+    text-align: center;
     background-color: rgb(229, 123, 229);
     background-image: url(BackForHome2.jpg);
     background-repeat: no-repeat;
@@ -106,4 +107,9 @@ img{
     font-size: larger;
     background-color: rgb(24, 225, 24);
     display: inline;
+}
+
+#icons{
+    text-align: center;
+    margin-top: 20px;
 }
