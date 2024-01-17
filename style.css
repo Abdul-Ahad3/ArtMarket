@@ -11,8 +11,8 @@ body h1{
     text-align: center;
 }
 
-body h2{
-    color: rgb(156, 155, 155);
+body p{
+    color: white;
     font-size:35px;
     font-weight:bolder;
 }
