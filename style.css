@@ -1,5 +1,26 @@
 body{
     background-color: rgb(229, 123, 229);
+    background-image: url(BackForHome2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+body h2{
+    color: rgb(156, 155, 155);
+    font-size:35px;
+    font-weight:bolder;
+}
+
+#blank{
+    height: 200px;
+    width: 200px;
+    visibility: hidden;
 }
 
 .navbar ul{
@@ -9,8 +30,10 @@ body{
 }
 
 .navbar a{
-    color: rgb(103, 16, 224);
-    font-size:larger;
+    margin: 5px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
     text-decoration: none;
     font-weight: bold;
     display: block;
@@ -19,7 +42,7 @@ body{
     text-align: center;
 }
 
-.navbar a:hover{background-color: aqua;}
+.navbar a:hover{background-color: black;}
 
 .navbar li{float: left;}
 
@@ -67,6 +90,12 @@ img{
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 5px;
+}
+
+#price{
+    display: inline;
+    text-align: left;
+    margin-top: 50px;    
 }
 
 .Button{
