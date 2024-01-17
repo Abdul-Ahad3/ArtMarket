@@ -1,7 +1,8 @@
-document.getElementById("button").onclick = function(){
-    console.log("clicked");
+let buttons = document.getElementsByClassName("Button");
+for(let i = 0; i < buttons.length; i++){
+    buttons[i].addEventListener("click", () => {
+        window.open("buyWin.html");
+    });
 }
 
-for(var i = 0; i < 7; i++){
-    
-}
+function comingSoon(){alert("Coming soon");}
