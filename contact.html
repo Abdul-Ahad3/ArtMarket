@@ -9,14 +9,21 @@
 <link rel = "stylesheet" href = "style.css">
 <body style="text-align: center">
     <h1>Feedback</h1>
-    <form>
+    <form id="Form" method="GET">
+        <label for="e-mail">E-mail</label>  <br>
+        <input type="email" id="e-mail" placeholder="abc123@xample.com" required>  <br>
 
+        <label for="feedback">Feedback</label>  <br>
+        <textarea id="feedback" rows="6" cols="60" placeholder="Comments"></textarea>  <br>
+
+        <input type="submit">
     </form>
 
     <hr>  <hr>
 
     <div id="icons">
-        <i class="fa-solid fa-house fa-5x"></i>
+        <a href="index.html"> <i class="fa-solid fa-house fa-5x"></i> </a>
+        <i class="fa-solid fa-envelope fa-5x"></i>
         <i class="fa-brands fa-square-instagram fa-5x"></i>
         <i class="fa-brands fa-square-x-twitter fa-5x"></i>
     </div>

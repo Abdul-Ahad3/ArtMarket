@@ -111,6 +111,17 @@ img{
 
 #icons{
     text-align: center;
-    margin-top: 20px;
+    margin: 20px;
 }
 
+.fa-solid.fa-house.fa-5x{margin: 10px; color: black;}
+.fa-solid.fa-envelope.fa-5x{margin: 10px;}
+.fa-brands.fa-square-instagram.fa-5x{margin: 10px;}
+.fa-brands.fa-square-x-twitter.fa-5x{margin: 10px;}
+
+#Form{
+    background-color: rgba(255, 255, 255, 0.557);
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
