@@ -62,10 +62,11 @@ body p{
     justify-content: center;
     align-items: center;
     text-align: center;
+    cursor: pointer;
 }
 
 .item:hover{
-    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
 
 img{
