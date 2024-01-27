@@ -5,14 +5,14 @@
   catch(mysqli_sql_exception){echo "Not Connected <br>";}
   
   if($_SERVER["REQUEST_METHOD"] == "POST"){
-    $email = filter_input(INPUT_POST, "e-mail", FILTER_SANITIZE_SPECIAL_CHARS);
+    $email = mysqli_real_escape_string($connection, $_POST["email"]);
     $fback = filter_input(INPUT_POST, "feedback", FILTER_SANITIZE_SPECIAL_CHARS);
+    echo "Doing";
 
-    $stmt = $connection->prepare("INSERT INTO feedback VALUES (?, ?)");
-    $stmt->bind_param("ss", $email, $fback);
+    $sql = "INSERT INTO feedback (`E-mail`, `FeedBack`) VALUES ('$email', '$fback')";
+    
 
-    $stmt->execute();
-
+    mysqli_query($connection, $sql);
   }
 
   mysqli_close($connection);

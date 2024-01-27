@@ -9,12 +9,12 @@
 <link rel = "stylesheet" href = "style.css">
 <body style="text-align: center">
     <h1>Feedback</h1>
-    <form action="index.php" method="POST">
+    <form id="Form" action="index.php" method="POST">
         <label for="email">E-mail</label>  <br>
-        <input type="email" id="e-mail" name="e-mail" placeholder="abc123@example.com" required>  <br>
+        <input type="email" name="email" placeholder="abc123@example.com" required>  <br>
 
         <label for="fback">Feedback</label>  <br>
-        <textarea id="feedback" name="feedback" rows="6" cols="60" placeholder="Comments"></textarea>  <br>
+        <textarea name="feedback" rows="6" cols="60" placeholder="Comments"></textarea>  <br>
 
         <input type="submit">
     </form>
