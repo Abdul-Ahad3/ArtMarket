@@ -8,9 +8,10 @@
     $email = filter_input(INPUT_POST, "e-mail", FILTER_SANITIZE_SPECIAL_CHARS);
     $fback = filter_input(INPUT_POST, "feedback", FILTER_SANITIZE_SPECIAL_CHARS);
 
-    $sqlQ = "INSERT INTO feedback (E-mail, feedback) VALUES ('$email', '$fback')";
+    $stmt = $connection->prepare("INSERT INTO feedback VALUES (?, ?)");
+    $stmt->bind_param("ss", $email, $fback);
 
-    mysqli_query($connection, $sqlQ);
+    $stmt->execute();
 
   }
 
